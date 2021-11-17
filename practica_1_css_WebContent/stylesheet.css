@@ -55,6 +55,11 @@ h2 {
 	counter-reset: cuenta-ciclos;
 }
 
+section img {
+	float: right;
+	width: 20%;
+}
+
 p.ciclos::before {
 	content: counter(cuenta-ciclos) ". ";
 	counter-increment: cuenta-ciclos;
